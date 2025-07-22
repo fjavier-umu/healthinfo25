@@ -1,0 +1,54 @@
+A. Visualizer Exercise
+
+   1. Search for the entities Usuario and RecomendacionEpisodio using the search bar. Place them in the diagram so that all relationship labels are clearly legible.
+
+   2. From the RecomendacionEpisodio node, expand its relationship with Episodio. Then, from Episodio, expand its relationship with EstanciaEpisodio. Click on the label of one of these relationships to extend the line representing it. Click again to undo the selection.
+
+   3. Enable the display of entity properties (eye icon button). From RecomendacionEpisodio, also expand its relationship with RecomendacionASP. Observe how the relationships and properties that were inherited now move from RecomendacionEpisodio to RecomendacionASP.
+
+   4. Next, from RecomendacionASP, open the entity Alarma. Delete the entity RecomendacionASP by selecting it and pressing the "backspace" key to see how the inherited relationships and properties now appear in its subclass RecomendacionEpisodio. Disable the display of entity properties (eye icon button).
+
+   5. Save the resulting view under the name "vistaTest". Use the trash can icon to completely clear the diagram. Try saving another view again (the application should not allow it). Load the view using the view selector. Freely move the nodes within the view. Clear the diagram and reload the view. Note that the view preserves the positions of the nodes without needing to save again.
+
+   6. Create a new view based on the existing one. To do this, with the "vistaTest" view loaded, delete the entity RecomendacionEpisodio. Add Paciente using the search bar and open PacienteCentro from that entity. Try saving the view. If the name is not changed, it will overwrite the existing one. If the name is changed, a new one will be created. Rename it "vistaTest2".
+
+   7. Use the eye icon on the Paciente entity to display its fields. Use the global eye icon of the visualizer to show the fields for all entities. Then, click again to hide them. Finally, clear the diagram.
+
+   8. From the search bar, load the entity Alarma. From that entity, load Episodio and Usuario. Now, attempt to load the view "vistaTest2". Cancel the operation. Try loading the view again, but this time save the current diagram as a new view called "vistaTest3". Delete the newly created view "vistaTest3" using the view explorer.
+
+   9. With the "vistaTest2" view loaded, create a new tag called "censo" in the Paciente entity. Then, add the same tag to Episodio and PacienteCentro. Clear the diagram completely.
+
+   10. Search for the RecomendacionASP entity. Add a tag named "recomendaciones". From that entity, open Usuario and add the same tag. Clear the diagram.
+
+   11. Use the tag explorer to display the entities with the "censo" tag. Then, add the entities tagged with "recomendaciones". Use the tag explorer to remove the "censo" tag. Search for the Paciente class using the search bar and verify that it no longer has the "censo" tag.
+
+   12. Finally, load the "vistaTest" view and, once loaded, delete the view using the view explorer.
+
+B. Questionnaire for Visualizer Evaluation
+
+A1. Age
+A2. Gender
+A3. Level of experience using computers
+A4. Level of experience using web applications
+A5. Level of experience using modeling tools (UML or similar)
+
+B1. Learning to use the tool was easy for me.
+B2. I find the tool clear and intuitive to use.
+B3. During use, the tool behaved consistently and reliably.
+B4. Searching for and adding entities felt easy and intuitive.
+B5. The representation of relationships seems clear to me.
+B6. Exploring the model felt easy and intuitive.
+B7. I find the tool easy to use for visualizing class diagrams.
+B8. I find the tool easy to use for saving partial views of the model.
+B9. The view filtering functionality felt intuitive and easy to use.
+B10. I find the tool to be highly useful.
+B11. Using the tool improves the ability to visualize the underlying model.
+B12. Using the tool makes it easier to understand the underlying model.
+B13. I found the creation of views useful.
+B14. I found the automatic saving of node positions while a view is loaded useful.
+B15. I found the tag filtering functionality useful and intuitive.
+B16. I found the warning system for unsaved changes useful.
+B17. Using the tool is a good idea.
+B18. I like the idea of using the tool.
+B19. I would use the tool to explore a JPA model.
+B20. I would use the tool to create partial views of a JPA model.
