@@ -1,0 +1,25 @@
+A. Visualizer Exercise
+
+   1. Search for the entities Usuario and RecomendacionEpisodio using the search bar. Place them in the diagram so that all relationship labels are clearly legible.
+
+   2. From the RecomendacionEpisodio node, expand its relationship with Episodio. Then, from Episodio, expand its relationship with EstanciaEpisodio. Click on the label of one of these relationships to extend the line representing it. Click again to undo the selection.
+
+   3. Enable the display of entity properties (eye icon button). From RecomendacionEpisodio, also expand its relationship with RecomendacionASP. Observe how the relationships and properties that were inherited now move from RecomendacionEpisodio to RecomendacionASP.
+
+   4. Next, from RecomendacionASP, open the entity Alarma. Delete the entity RecomendacionASP by selecting it and pressing the "backspace" key to see how the inherited relationships and properties now appear in its subclass RecomendacionEpisodio. Disable the display of entity properties (eye icon button).
+
+   5. Save the resulting view under the name "vistaTest". Use the trash can icon to completely clear the diagram. Try saving another view again (the application should not allow it). Load the view using the view selector. Freely move the nodes within the view. Clear the diagram and reload the view. Note that the view preserves the positions of the nodes without needing to save again.
+
+   6. Create a new view based on the existing one. To do this, with the "vistaTest" view loaded, delete the entity RecomendacionEpisodio. Add Paciente using the search bar and open PacienteCentro from that entity. Try saving the view. If the name is not changed, it will overwrite the existing one. If the name is changed, a new one will be created. Rename it "vistaTest2".
+
+   7. Use the eye icon on the Paciente entity to display its fields. Use the global eye icon of the visualizer to show the fields for all entities. Then, click again to hide them. Finally, clear the diagram.
+
+   8. From the search bar, load the entity Alarma. From that entity, load Episodio and Usuario. Now, attempt to load the view "vistaTest2". Cancel the operation. Try loading the view again, but this time save the current diagram as a new view called "vistaTest3". Delete the newly created view "vistaTest3" using the view explorer.
+
+   9. With the "vistaTest2" view loaded, create a new tag called "censo" in the Paciente entity. Then, add the same tag to Episodio and PacienteCentro. Clear the diagram completely.
+
+   10. Search for the RecomendacionASP entity. Add a tag named "recomendaciones". From that entity, open Usuario and add the same tag. Clear the diagram.
+
+   11. Use the tag explorer to display the entities with the "censo" tag. Then, add the entities tagged with "recomendaciones". Use the tag explorer to remove the "censo" tag. Search for the Paciente class using the search bar and verify that it no longer has the "censo" tag.
+
+   12. Finally, load the "vistaTest" view and, once loaded, delete the view using the view explorer.
