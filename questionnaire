@@ -1,0 +1,28 @@
+B. Questionnaire for Visualizer Evaluation
+
+A1. Age
+A2. Gender
+A3. Level of experience using computers
+A4. Level of experience using web applications
+A5. Level of experience using modeling tools (UML or similar)
+
+B1. Learning to use the tool was easy for me.
+B2. I find the tool clear and intuitive to use.
+B3. During use, the tool behaved consistently and reliably.
+B4. Searching for and adding entities felt easy and intuitive.
+B5. The representation of relationships seems clear to me.
+B6. Exploring the model felt easy and intuitive.
+B7. I find the tool easy to use for visualizing class diagrams.
+B8. I find the tool easy to use for saving partial views of the model.
+B9. The view filtering functionality felt intuitive and easy to use.
+B10. I find the tool to be highly useful.
+B11. Using the tool improves the ability to visualize the underlying model.
+B12. Using the tool makes it easier to understand the underlying model.
+B13. I found the creation of views useful.
+B14. I found the automatic saving of node positions while a view is loaded useful.
+B15. I found the tag filtering functionality useful and intuitive.
+B16. I found the warning system for unsaved changes useful.
+B17. Using the tool is a good idea.
+B18. I like the idea of using the tool.
+B19. I would use the tool to explore a JPA model.
+B20. I would use the tool to create partial views of a JPA model.
